@@ -10,7 +10,8 @@ type TIFormProps = {
   onSubmit : SubmitHandler<any>
   children : ReactNode
 } & TFormConfig
-
+const newDada = "Coming now"
+console.log(newDada)
 const PHForm = ({ onSubmit, children , defaultValues} : TIFormProps) => {
   const formConfig : TFormConfig = {}
   if(defaultValues) {
